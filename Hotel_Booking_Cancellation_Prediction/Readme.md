@@ -129,22 +129,6 @@ A video walkthrough (8–12 minutes) explaining the notebook, models, and insigh
 
 🔗 **Video URL:** https://drive.google.com/file/d/1YTMM0tOL5IjlNgKwtMckW8-kZWrZ175q/view?usp=sharing
 
-> Ensure access is set to "Anyone with the link – Viewer"
-
-## 📁 Repository Structure
-
-```
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-├── notebook/
-│   └── Hotel_Booking_Cancellation_Prediction.ipynb
-├── submission/
-│   └── submission.csv
-└── README.md
-```
-
 ## 🧑‍💻 Tools & Technologies Used
 
 - Python
