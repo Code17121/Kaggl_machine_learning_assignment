@@ -94,21 +94,6 @@ A detailed video explanation of the notebook is available here:
 
 🔗 **Video URL:** [Add your Google Drive link here]
 
-
-## 📁 Repository Structure
-
-```
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-├── notebook/
-│   └── House_Price_Prediction.ipynb
-├── submission/
-│   └── submission.csv
-└── README.md
-```
-
 ## 🧑‍💻 Tools & Technologies Used
 
 - Python
