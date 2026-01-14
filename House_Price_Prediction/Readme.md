@@ -94,7 +94,6 @@ A detailed video explanation of the notebook is available here:
 
 🔗 **Video URL:** [Add your Google Drive link here]
 
-> Make sure link access is set to "Anyone with the link – Viewer"
 
 ## 📁 Repository Structure
 
