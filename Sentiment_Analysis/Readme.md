@@ -135,20 +135,6 @@ A video walkthrough (8–12 minutes) explaining the notebook, models, and insigh
 🔗 **Video URL:** https://drive.google.com/file/d/1WC5ZSeRilobxX64-rTGQ3Qh1m6fqo7Kk/view?usp=sharing
 
 
-## 📁 Repository Structure
-
-```
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-├── notebook/
-│   └── Movie_Review_Sentiment_Prediction.ipynb
-├── submission/
-│   └── submission.csv
-└── README.md
-```
-
 ## 🧑‍💻 Tools & Technologies Used
 
 - Python
