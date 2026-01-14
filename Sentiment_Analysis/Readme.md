@@ -134,7 +134,6 @@ A video walkthrough (8–12 minutes) explaining the notebook, models, and insigh
 
 🔗 **Video URL:** https://drive.google.com/file/d/1WC5ZSeRilobxX64-rTGQ3Qh1m6fqo7Kk/view?usp=sharing
 
-> Ensure access is set to "Anyone with the link – Viewer"
 
 ## 📁 Repository Structure
 
