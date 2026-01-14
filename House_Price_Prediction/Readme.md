@@ -1,74 +1,76 @@
-House Price Prediction using Machine Learning
-Project Overview
+🏠 House Price Prediction – Machine Learning Assignment
+📌 Project Overview
 
-This project aims to build and evaluate multiple Machine Learning models to predict house prices based on various property-related features. The workflow follows a complete data science pipeline including data understanding, preprocessing, visualization, model building, hyperparameter tuning, and performance comparison.
+This project focuses on building and evaluating multiple Machine Learning models to predict house prices based on various structural and locational features. The assignment follows a structured data science workflow, including data understanding, preprocessing, visualization, model building, hyperparameter tuning, and performance comparison.
 
-A Jupyter Notebook containing the full implementation and a video walkthrough explaining the notebook are provided as part of the assignment submission.
+A complete Jupyter Notebook and a video walkthrough explaining the approach and results are provided as part of the submission.
 
-Dataset Information
+📂 Dataset Description
 
-The dataset consists of the following files:
+The dataset consists of three CSV files:
 
-train.csv – Training dataset containing features and the target variable (price)
-
-test.csv – Test dataset with the target variable hidden
-
-sample_submission.csv – Sample submission file in the correct format
-
-Column Description
+File Name	Description
+train.csv	Training dataset containing features and target variable (price)
+test.csv	Test dataset with target column hidden
+sample_submission.csv	Sample format for final predictions
+🔑 Feature Description
 Column Name	Description
 id	Unique identifier
 area_type	Type of area
 availability	Availability status of the house
-location	Location of the house
-size	BHK configuration (Bedrooms, Hall, Kitchen)
+location	Geographical location
+size	Configuration (BHK – Bedrooms, Hall, Kitchen)
 total_sqft	Total area in square feet
 bath	Number of bathrooms
 balcony	Number of balconies
-price	House price (Target variable)
-Project Workflow
-1. Data Understanding
+price	House price (Target Variable)
+🧪 Project Workflow
 
-Identified and documented data types of all columns
+The notebook follows a clear and structured pipeline as per the assignment rubrics:
 
-Converted non-standard columns into usable numerical formats
+1️⃣ Data Understanding
 
-2. Exploratory Data Analysis
+Identified data types of all columns
 
-Generated descriptive statistics (minimum, maximum, mean, median)
+Converted inconsistent columns (e.g., total_sqft, size) into usable numeric formats
 
-Analyzed distributions and relationships between features and price
+2️⃣ Exploratory Data Analysis (EDA)
 
-3. Data Cleaning
+Generated descriptive statistics (min, max, mean, median)
 
-Identified and handled missing values through imputation or removal
+Visualized distributions and relationships between features and target
 
-Checked and removed duplicate records
+3️⃣ Data Cleaning
 
-Detected outliers and provided justification for retaining or removing them
+Missing values identified and handled (imputation or removal)
 
-4. Data Visualization
+Duplicate records checked and removed where applicable
 
-At least three visualizations were created, including:
+Outliers detected using statistical methods and domain reasoning
+
+4️⃣ Data Visualization
+
+At least three meaningful visualizations were created, such as:
 
 Price distribution
 
-Relationship between price and total square feet
+Price vs total square feet
 
-Price variation across locations or BHK types
-Each visualization includes meaningful insights.
+Price variation across locations / BHK types
 
-5. Feature Engineering
+Each visualization is accompanied by insightful interpretations.
 
-Scaled numerical features where required
+5️⃣ Feature Engineering
 
-Encoded categorical variables using suitable techniques
+Scaling of numerical features where required
 
-Provided reasoning for scaling and encoding choices
+Encoding of categorical variables using appropriate techniques
 
-Model Building
+Justification provided for scaling and encoding choices
 
-A minimum of seven Machine Learning models were trained and evaluated, including:
+🤖 Model Building
+
+A minimum of 7 Machine Learning models were trained and evaluated, including (but not limited to):
 
 Linear Regression
 
@@ -82,36 +84,39 @@ Random Forest Regressor
 
 Gradient Boosting Regressor
 
-Support Vector Regressor / XGBoost / Extra Trees Regressor
+XGBoost / Extra Trees / SVR
 
-Hyperparameter Tuning
+⚙️ Hyperparameter Tuning
 
-Hyperparameter tuning performed on at least three models
+Hyperparameter optimization was performed on at least 3 models using techniques such as:
 
-Used GridSearchCV and/or RandomizedSearchCV for optimization
+GridSearchCV
 
-Model Evaluation and Comparison
+RandomizedSearchCV
 
-Models evaluated using appropriate regression metrics (R², RMSE)
+📊 Model Evaluation & Comparison
 
-Performance compared on a validation dataset
+Models were evaluated using appropriate regression metrics (e.g., RMSE, R²)
 
-Best-performing model selected based on evaluation results
+Performance comparison was conducted on a validation set
 
-Final Submission
+Best-performing model was selected based on results and interpretability
 
-Predictions generated for the test dataset
+📈 Final Output
 
-Submission file created following the format of sample_submission.csv
+Predictions generated on test.csv
 
-Video Walkthrough
+Submission file created in the format of sample_submission.csv
 
-A detailed video walkthrough explaining the notebook and approach is available at the link below:
+🎥 Video Walkthrough
 
-Video URL: (Add your Google Drive link here)
-(Access set to “Anyone with the link – Viewer”)
+A detailed video explanation of the notebook is available here:
 
-Repository Structure
+🔗 Video URL: (Add your Google Drive link here)
+
+Make sure link access is set to “Anyone with the link – Viewer”
+
+📁 Repository Structure
 ├── data/
 │   ├── train.csv
 │   ├── test.csv
@@ -122,7 +127,7 @@ Repository Structure
 │   └── submission.csv
 ├── README.md
 
-Tools and Technologies
+🧑‍💻 Tools & Technologies Used
 
 Python
 
@@ -134,6 +139,14 @@ Scikit-learn
 
 Jupyter Notebook
 
-Conclusion
+📝 Notes
 
-This project demonstrates an end-to-end Machine Learning regression workflow, covering data preprocessing, visualization, model development, hyperparameter tuning, and performance evaluation in a structured and reproducible manner.
+Peer Review is mandatory (5 reviews required post-submission)
+
+Code is written with readability, modularity, and reproducibility in mind
+
+Comments and markdown cells explain logic and decisions clearly
+
+✅ Conclusion
+
+This project demonstrates a complete end-to-end Machine Learning regression workflow, from raw data to validated predictions, following best practices in data preprocessing, model development, and evaluation.
